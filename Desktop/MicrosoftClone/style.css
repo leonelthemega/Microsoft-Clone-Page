@@ -1,0 +1,293 @@
+body {
+  background-color: whitesmoke;
+}
+
+img {
+  width: 100%;
+}
+
+.navbar {
+  padding-top: 5px;
+  margin-left: 55px;
+  font-family: 'Roboto', sans-serif;
+}
+
+.navbar .nav-sign {
+  margin-right: 40px;
+}
+
+.navbar .navbar-brand {
+  width: 8%;
+}
+
+.navbar .navbar-nav li {
+  padding: 0px 8px;
+}
+
+.navbar .nav-link {
+  font-size: 0.9rem;
+  color: black !important;
+  margin-top: 8px;
+}
+
+.navbar li {
+  list-style: none;
+}
+
+/*Carousel*/
+.covid {
+  background-color: #2964bd;
+  width: 89%;
+  margin: auto;
+  text-align: center;
+  height: 40px;
+}
+
+.covid a {
+  text-decoration: none;
+  color: whitesmoke;
+}
+
+.covid a:hover {
+  text-decoration: underline;
+}
+
+.covid a p {
+  padding-top: 10px;
+}
+
+#carouselExampleCaptions {
+  width: 89%;
+  margin: auto;
+}
+
+#carouselExampleCaptions .carousel-indicators li {
+  background-color: black;
+}
+
+#carouselExampleCaptions .carousel-inner h1 {
+  color: black;
+  font-weight: bolder;
+  font-size: 2.6rem;
+  font-family: 'Roboto', sans-serif;
+  width: 40%;
+}
+
+#carouselExampleCaptions .carousel-inner img {
+  height: 500px;
+}
+
+#carouselExampleCaptions .carousel-inner p {
+  font-size: 1.2rem;
+  color: black;
+  opacity: 0.8;
+}
+
+#carouselExampleCaptions .carousel-inner .btn {
+  padding: 8px 30px;
+}
+
+#carouselExampleCaptions .carousel-inner .btn .btn-dark {
+  color: white;
+  font-weight: bolder;
+  font-family: 'Balsamiq Sans', cursive;
+  background-color: black !important;
+}
+
+#carouselExampleCaptions .carousel-inner .carousel-caption {
+  text-align: left;
+  padding-bottom: 130px;
+  margin-left: -90px;
+}
+
+/*Icons*/
+.icons {
+  margin-top: 70px;
+  margin-bottom: 70px;
+  margin-left: 150px;
+}
+
+.icons .row a {
+  text-decoration: none;
+  color: black;
+}
+
+.icons .row a i {
+  margin-bottom: 15px;
+  opacity: 0.8;
+}
+
+.icons .row a h4 {
+  font-size: 1rem;
+  font-weight: bolder;
+}
+
+/*Cards*/
+.cards {
+  width: 89%;
+  margin: auto;
+}
+
+.cards .card {
+  width: 313px;
+  height: 400px;
+}
+
+.cards .card img {
+  height: 200px;
+}
+
+.cards .card a {
+  color: #2964bd;
+  font-weight: bolder;
+}
+
+.cards .card a:hover {
+  border-bottom: 2px solid #2964bd;
+  -webkit-transition: .6s ease-in-out;
+  transition: .6s ease-in-out;
+}
+
+.cards .card h5 {
+  font-size: 1.2rem;
+  font-weight: bolder;
+  font-family: 'Roboto', sans-serif;
+}
+
+/*365 microsoft*/
+.mi365 {
+  width: 89%;
+  margin: 50px auto;
+  height: 500px;
+}
+
+.mi365 .caption {
+  -webkit-transform: translate(80px, -350px);
+          transform: translate(80px, -350px);
+}
+
+.mi365 .caption h1 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 3rem;
+  font-weight: bolder;
+}
+
+.mi365 .caption p {
+  font-size: 0.9rem;
+}
+
+.mi365 .caption .btn {
+  margin-right: 50px;
+}
+
+.mi365 .caption .for {
+  color: black;
+  font-weight: bolder;
+}
+
+/*For Works*/
+.forWorks {
+  width: 89%;
+  margin: 0px auto;
+}
+
+.forWorks .col-12 h3 {
+  font-weight: bolder;
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+  padding-left: 5px;
+}
+
+.forWorks .card {
+  height: 400px;
+  width: 313px;
+}
+
+.forWorks .card h5 {
+  font-family: 'Roboto', sans-serif;
+  font-weight: bolder;
+  font-size: 1.2rem;
+}
+
+/*second-carousel*/
+.second-carousel {
+  margin-top: 50px;
+  height: 400px;
+  margin-bottom: 150px;
+}
+
+.second-carousel #carouselExampleCaptions .carousel-inner h1 {
+  color: whitesmoke;
+  font-family: 'Roboto', sans-serif;
+  font-size: 2.4rem;
+  font-weight: bolder;
+  margin-bottom: 10px;
+}
+
+.second-carousel #carouselExampleCaptions .carousel-inner p {
+  color: white !important;
+  font-size: 1rem;
+}
+
+.second-carousel #carouselExampleCaptions .carousel-inner .btn {
+  background-color: white;
+  color: black;
+  font-weight: bolder;
+  margin-right: 30px;
+}
+
+.second-carousel #carouselExampleCaptions .carousel-inner .demand {
+  text-decoration: none;
+  color: white;
+  font-weight: bolder;
+}
+
+.second-carousel #carouselExampleCaptions .carousel-indicators li {
+  background-color: whitesmoke;
+}
+
+.follow {
+  margin-left: 80px;
+}
+
+.follow i {
+  padding: 0px 5px;
+}
+
+.follow .fa-facebook-square {
+  color: #3b5998;
+}
+
+.follow .fa-twitter-square {
+  color: #1da1f2;
+}
+
+.follow .fa-linkedin {
+  color: #007bb5;
+}
+
+/*Footer*/
+.page-footer {
+  width: 89%;
+  margin: 50px auto;
+  background-color: #ebebeb;
+}
+
+.page-footer h5 {
+  margin-left: 40px;
+  font-size: 0.9rem;
+  font-family: 'Roboto', sans-serif;
+  margin-bottom: 0px;
+}
+
+.page-footer li {
+  list-style: none;
+  padding: 10px 0px;
+}
+
+.page-footer li a {
+  color: black;
+  font-size: .7rem;
+}
+/*# sourceMappingURL=style.css.map */
